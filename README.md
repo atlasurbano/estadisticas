@@ -11,7 +11,7 @@ Consulta en Overpass para contar poligonos
 // gather results
 (
   // query part for: “leisure=playground and access!=no and access!=private”
-  way["source"="cidi"](user:"Marliz94")(changed:"2020-05-18T00:00:00Z","2020-05-19T00:00:00Z" )({{bbox}});
+  way["source"="cidi"](user:"Tomaps")(changed:"2020-05-18T00:00:00Z","2020-05-19T00:00:00Z" )({{bbox}});
 );
 // print results
 out body;
